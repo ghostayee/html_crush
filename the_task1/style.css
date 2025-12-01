@@ -1,0 +1,13 @@
+body {
+    background-image: url('dev.jpg') ;
+    margin: 0;
+    background-size: cover;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+h3 {
+    color:white;
+    margin: 35px;
+}

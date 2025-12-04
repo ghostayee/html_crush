@@ -24,3 +24,5 @@ https = hyper text transfer protocol
 inspect all the requests.
 
 the action attribute to tell where the data is send to.
+
+..final recap on updating skills on html

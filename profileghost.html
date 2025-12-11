@@ -11,9 +11,71 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <style>
+              .nav {
+            background-color: rgb(49, 47, 47);
+            padding: 6px;
+            align-items: center;
+            border-radius: 20px;
+            margin-bottom: 20px;
+        }
+        .menu {
+            list-style: none;
+            display: flex;
+        }
+        .nav .menu .switches {
+            display: flex;
+            margin-left: 230px;
+        }
+        .nav a {
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+        }
+        .nav .menu .space {
+            margin-left: 200px;
+        }
+        button {
+            background-color: rgb(13, 140, 224);
+            border-radius: 15px;
+            color: rgb(179, 187, 187);
+            padding: 6px 25px;
+            border: none;
+        }
+        .nav .logo a {
+            font-weight: bold;
+        }
+        .nav .menu .switches li a {
+            color:rgb(179, 187, 187)
+        }
+        .top {
+          text-align: center;
+          color: rgb(11, 145, 235);
+        }
+        .socials {
+          display: flex;
+          justify-content: center;
+          gap: 20px;
+          width: 100%;
+        }
+    </style>
   </head>
   <body>
-    <h1>GHOST MAYEE PROFILE</h1>
+        <div class ="nav">
+        <ul class = "menu">
+            <li class ="logo"><a href="">PROFILE</a></li>
+            <div class = "switches">
+            <li><a href="">Services</a></li>
+            <li><a href="">projects</a></li>
+            <li><a href="">About</a></li>
+            </div>
+            <div class = "space">
+            <li><a href=""><button>Contact</button></a></li>
+            </div>
+        </ul>
+
+    </div>
+    <h1 class = "top">GHOST MAYEE PROFILE</h1>
     <h3>Name: Kennedy Johnson</h3>
     <img src="ghostayee.png" alt="coast vibes" height="350" width="300" />
     <h3>About Me</h3>
@@ -40,6 +102,7 @@
       could use a chemist who doesn’t mind no roads and no Wi-Fi, let’s talk.
     </p>
     <br /><br />
+    <div class = "socials">
     <a href="https://m.facebook.com/" target="_blank"
       ><i class="fa-brands fa-facebook-f fa-2xl" style="color: #0000ff"></i
     ></a>
@@ -73,6 +136,7 @@ YouTube"
         style="color: #ffff00"
       ></i></a
     ><br /><br />
+    </div>
     <a href="mailto:mayeeayee@gmail.com"
       ><div style="text-align: center"><button>send email</button></div></a
     >
